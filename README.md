@@ -5,7 +5,7 @@ Betweenness centrality testing program for the following graph:
 
 This graph is being represented by a matrix in the program's main function:
 
-      			{ 0, 1, 0, 0, 0, 0 }, 
+      		{ 0, 1, 0, 0, 0, 0 }, 
 			{ 1, 0, 1, 0, 0, 0 }, 
 			{ 0, 1, 0, 1, 1, 0 },
 			{ 0, 0, 1, 0, 1, 1 },
