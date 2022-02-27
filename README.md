@@ -5,7 +5,7 @@ Betweenness centrality testing program for the following graph:
 
 This graph is being represented by a matrix in the program's main function:
 
-      { 0, 1, 0, 0, 0, 0 }, 
+      			{ 0, 1, 0, 0, 0, 0 }, 
 			{ 1, 0, 1, 0, 0, 0 }, 
 			{ 0, 1, 0, 1, 1, 0 },
 			{ 0, 0, 1, 0, 1, 1 },
@@ -15,8 +15,8 @@ This graph is being represented by a matrix in the program's main function:
       
 The purpose of the program is to test whether a shortest path between two verteces *must* travel through a specific vertex.
 For example, the main function tests if the shortest path between vertex #1 to #6 *must* go through vertex #3 - for which the program will return true.
-
 For this case, there are 2 shortest possible routes:
+
 <img src="https://user-images.githubusercontent.com/62388816/155898587-d142a5f8-92a9-4ece-a066-044f18553a7d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/62388816/155898641-42855398-e3df-433a-912d-c70ada89d3b4.png" width="45%"></img> 
 
 We can clearly see that both routes *must* go thorugh vertex #3 - therefore the function should return a true statement.
